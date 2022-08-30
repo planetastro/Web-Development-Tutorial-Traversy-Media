@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML Cheat Sheet</title>
+    </head>
+    
+    <body>
+        <!-- Headings: fundamental object used for displaying header text -->
+        <h1>Heading One</h1>
+        <h2>Heading Two</h2>
+        <h3>Heading Three</h3>
+        <h4>Heading Four</h4>
+        <h5>Heading Five</h5>
+        <h6>Heading Six</h6>
+
+        <!-- Paragraphs: fundamental object used for displaying text -->
+        <p>Lorem ipsum dolor sit amet consectetur, <em>adipisicing elit</em>. <strong>Alias, nostrum</strong>.</p>
+        <p>Lorem ipsum dolor <a href="sit-amet-consectetur">sit amet consectetur</a>, adipisicing elit. <a href="https://google.com" target="_blank">Alias, nostrum</a>.</p>
+
+        <!-- Lists: used for displaying lists of items -->
+        <ul>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ul>
+        <ol>
+            <li>List Item 1</li>
+            <li>List Item 2</li>
+            <li>List Item 3</li>
+            <li>List Item 4</li>
+        </ol>
+
+        <!-- Tables: used for displaying tabular data only. DO NOT USE FOR LAYOUTS. -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Age</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>William Setiawan</td>
+                    <td>william.setiawan.uni@gmail.com</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>Bruce Wayne</td>
+                    <td>batman@waynefamily.com</td>
+                    <td>NULL</td>
+                </tr>
+                <tr>
+                    <td>Thanos</td>
+                    <td>thanos@infinitystones.com</td>
+                    <td>1000</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- HTML decorators: used for adding aesthetic elements to a webpage -->
+        <br> <!-- NOTE: abbreviated from "line BReaks" -->
+        <hr> <!-- NOTE: abbreviated from "Horizontal Rule" -->
+        <br>
+
+        <!-- Forms: used for  -->
+        <form action="process.php" method="POST"> <!-- NOTE: The additional tags 'action' and 'method' are used for server-side processing. Not included in this tutorial. -->
+            <div> <!-- NOTE: div included to change inline elements (label, input) to block elements -->
+                <label>First Name</label>
+                <input type="text" name="first-name">
+            </div>
+            <br>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="last-name">
+            </div>
+            <br>
+            <div>
+                <label>Email</label>
+                <input type="email" name="email">
+            </div>
+            <br>
+            <div>
+                <label>Message</label>
+                <textarea name="message"></textarea>
+            </div>
+            <br>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Age:</label>
+                <input type="number" name="age" value="30">
+            </div>
+            <br>
+            <div>
+                <label>Birthday:</label>
+                <input type="date" name="birthday">
+            </div>
+            <br>
+            <div>
+                <label>Nickname</label>
+                <input type="text" name="nickname" placeholder="Optional: Enter preferred nickname">
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+        <br>
+        <hr>
+        <br>
+
+        <!-- Buttons -->
+        <button>Click Me!</button>
+
+        <!-- Images -->
+        <br>
+        <img src="images/bondi-beach-waves.gif" alt="Ocean Waves at Bondi Beach" width="200" height="auto">
+        <a href="images/bondi-beach-waves.gif">
+            <img src="images/bondi-beach-waves.gif" alt="Ocean Waves at Bondi Beach with hyperlink to view image" width="200" height="auto">
+        </a>
+
+        <!-- Quotations -->
+        <blockquote cite="https://traversymedia.com">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, molestiae!
+        </blockquote>
+
+        <p>The <abbr title="World Wide Web">WWW</abbr> is awesome with <abbr title="abbreviations">abbrs</abbr>!</p>
+        
+        <p><cite>HTML crash course</cite> by Brad Traversy</p>
+
+        <a href="index-semantics.html">Go to Semantics Blog</a>
+
+        <!-- (Optional) div for adjusting display -->
+        <div style="margin-top: 500px;"></div>
+    </body>
+</html>

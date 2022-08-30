@@ -1,0 +1,72 @@
+<!-- NOTE: Semantic tags refer to descriptive HTML tags that indicate specific elements of a webpage to a browser/developer -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Semantics Blog</title>
+        <meta name="description" content="Awesome blog by William"> <!-- Semantic tag: specifically for SEO -->
+        <meta name="keywords" content="web design blog, web dev blog, traversy media"> <!-- Semantic tag: specifically for SEO -->
+        <style type="text/css">
+            #main-header {
+                text-align: center;
+                background-color: blueviolet;
+                color: white;
+                padding: 10px;
+            }
+
+            #main-footer {
+                text-align: center;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header id="main-header"> <!-- Semantic tag -->
+            <h1>My Website</h1>
+        </header>
+
+        <a href="index-basics.html">Return to Home</a>
+
+        <section> <!-- Semantic tag -->
+            <article class="post"> <!-- Semantic tag -->
+                <h3>Blog Post 1</h3>
+                <small>Posted by William on 30 August 2022</small> <!-- Semantic tag -->
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, quisquam.</p>
+                <a href="post1.html">Read More...</a>
+            </article>
+            
+            <article class="post">
+                <h3>Blog Post 2</h3>
+                <small>Posted by William on 30 August 2022</small>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellat, optio.</p>
+                <a href="post2.html">Read More...</a>
+            </article>
+            
+            <article class="post">
+                <header>
+                    <h3>Blog Post 3 (using a header)</h3>
+                </header>
+                <small>Posted by William on 30 August 2022</small>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, dolor!</p>
+                <a href="post3.html">Read More...</a>
+            </article>
+        </section>
+
+        <aside> <!-- Semantic tag -->
+            <h3>Categories</h3>
+            <nav> <!-- Semantic tag -->
+                <ul>
+                    <li><a href="#">Category 1</a></li>
+                    <li><a href="#">Category 2</a></li>
+                    <li><a href="#">Category 3</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <footer id="main-footer">
+            <p>Copyright &copy; 2022, My Semantics Blog</p>
+        </footer>
+
+        <div style="margin-top: 500px;"></div>
+    </body>
+</html>
