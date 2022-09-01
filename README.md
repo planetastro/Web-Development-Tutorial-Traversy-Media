@@ -5,4 +5,5 @@
 
 ## Progress
 Completed tutorials:
-1. HTML Crash Course (30/08/2022)
+1. HTML Crash Course For Absolute Beginners (30/08/2022)
+2. CSS Crash Course For Absolute Beginners (01/09/2022)
